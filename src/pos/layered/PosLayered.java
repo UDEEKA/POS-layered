@@ -3,7 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
 package pos.layered;
-
+import pos.layered.view.LayoutView;
 /**
  *
  * @author user
@@ -14,7 +14,7 @@ public class PosLayered {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("Hello");
+        new LayoutView().setVisible(true);
     }
     
 }
